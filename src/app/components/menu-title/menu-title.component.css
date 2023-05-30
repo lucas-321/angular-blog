@@ -2,12 +2,22 @@
   color: #fff;
 }
 
-.container__menu-title >h1{
+@font-face {
+  font-family: 'Bebas-Regular';
+  src: url('../../../assets/fonts/Bebas-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container__menu-title >p{
+  background-color: #ec1d24;
+  width: 98%;
+  margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 135px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
+
+  font-family: 'Bebas-Regular';
+  font-size: 80px;
   display: flex;
   justify-content: center;
 }
@@ -16,5 +26,14 @@
   margin-top: 20px;
   margin-bottom: 5px;
 }
+
+@media screen and (min-width: 768px) {
+
+  .container__menu-title >p{
+    font-size: 135px;
+  }
+
+}
+
 
 
